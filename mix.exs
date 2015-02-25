@@ -25,6 +25,6 @@ defmodule Chrono.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [{:socket, git: "https://github.com/meh/elixir-socket.git"}]
   end
 end
